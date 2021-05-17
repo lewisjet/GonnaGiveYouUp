@@ -27,6 +27,11 @@
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
     </script>
+
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v10.0&appId=970192107050067&autoLogAppEvents=1"
+        nonce="QMaR98Bi"></script>
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
@@ -46,8 +51,11 @@
         <h1>Gonna Give You Up</h1>
         <p>The challenge is simple: don't get rick rolled for 12 months.</p>
         <button type="button" class="btn btn-warning">I'm out for the month!</button>
-        <script>FB.Login();</script>
-     </div>
+        <br> <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <div class="fb-login-button" data-width="" data-size="large" data-button-type="login_with" data-layout="default"
+            data-auto-logout-link="false" data-use-continue-as="true"></div>
+        </div>
+        
     </div>
    
 
